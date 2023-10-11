@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+html {
+    box-sizing: border-box;
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    color: white;
+    align-items: center;
+    padding-bottom: 10vh;    
+}
+
+p>a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+header>h1{
+    font-family: 'Dancing Script', cursive;
+    padding: 10vh 0 0 0;
+    background-color: black;
+    font-size: 4em;
+}
+
+section {
+    padding: 10vh 30px;
+    font-size: 2em;
+}
+
+section>p{
+    margin: 50px 0px;
+    font-weight: 600;
+    font-style: italic;   
+}
+
+.bg-img{ 
+    background: green url(imagens/background001.jpg) center center fixed;
+}
+
+.bg-img>p{
+    max-width:400px ;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    text-shadow: 1px 1px black;
+    padding: 15px 1px;
+
+}
+
+.bg-img2{
+    background: green url(imagens/background002.jpg) center center fixed;
+}
+
+.bg-img2>p{
+    max-width:400px ;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    text-shadow: 1px 1px black;
+    padding: 15px 1px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 5px;
+}
